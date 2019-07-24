@@ -1,3 +1,4 @@
-def meal_choice(protien = "meat", broccoli, macaroni)
-  puts "What a nutritious meal! A plate of #{protien} with #{vegetable} and #{starch}."
+def meal_choice(vegetable, starch, protien = "meat")
+  puts "What a nutritious meal!"
+  puts "A plate of #{protien} with #{vegetable} and #{starch}."
 end
